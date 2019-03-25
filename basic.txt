@@ -1,0 +1,14 @@
+git add newfile.txt
+git status
+git commit -m "first commit" new.txt
+git push -u origin master
+(it will add in server)
+
+//To see old version of code
+git log
+git checkout 837b1 -- new.txt
+git commit -m "Going back to our privous version" new.txt
+//Now it will modify in our local host file
+//but in web server it wont change untill i push
+//so we are push it
+git push -u origin master
